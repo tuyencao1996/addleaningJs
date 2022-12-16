@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    /* background: url(../imgs/img/photo_img1\ secenery.avif); */
+    background: url(../imgs/img/photo-senery_img5.avif);
+    background-size:cover;
+    object-fit: cover;
+}
+h1 {
+    color: white;
+}
+.header-taskmanager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: black;
+}
+.taskmanager {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+}
+.tab1-taskmanager {
+    width: 40%;
+    height: 300px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 10px;
+    flex: 1;
+}
+.form-class {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+.taskname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.js-iput1 {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid black;
+}
+span {
+    font-size: 18px;
+}
+.task-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.tasktitle {
+    margin-right: 10px;
+}
+#texaria-id {
+    width: 50%;
+    border-radius: 5px;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 3; 
+   -webkit-box-orient: vertical;
+}
+.prionity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#prionity-select {
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 30px;
+    text-align: center;
+}   
+.submit-and-reset {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.submit1 {
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+.submit2 {
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+/* tab2 */
+
+
+.tab2-Task-list {
+    width: 60%;
+    height: 500px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 30px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.task-list-header {
+    color: white;
+}
+.task-list-all-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.work-people {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+.none-one {
+    width: 100px;
+}
+.none-true {
+    width: 100px;
+}
+.nomal {
+    width: 100px;
+    margin-left: 210px;
+}
+.work-people-done {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+.work-people-color-pink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+.work-people-color-blue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+.hight {
+    width: 70px;
+    height: 25px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 210px;
+    background-color:pink;
+    color: black;
+}
+.none3 {
+    width: 100px;
+}
+.none4 {
+    width: 100px;
+    border-radius: 6px;
+}
+.low {
+    width: 70px;
+    height: 25px;
+    margin-left: 210px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(98, 120, 231);
+    color: black;
+}
+.none5 {
+    width: 100px;
+    border-radius: 6px;
+}
+.none6 {
+    width: 100px;
+    border-radius: 6px;
+}
+.done-del1 {
+    display: flex;
+    gap: 10px;
+    border-radius: 6px;
+    color: black;
+}
+.done1 {
+    width: 70px;
+    height: 25px;
+    border-radius: 6px;
+    color: black;
+}
+.del1{
+    width: 70px;
+    height: 25px;
+    border-radius: 6px;
+    color: black;
+}
+.done2 {
+    width: 70px;
+    height: 25px;
+    border-radius: 6px;
+    color: black;
+}
+.del2{
+    width: 70px;
+    height: 25px;
+    border-radius: 6px;
+    color: black;
+}
+.done3 {
+    width: 70px;
+    height: 25px;
+    border-radius: 6px;
+    background-color: pink;
+    color: black;
+}
+.del3{
+    width: 70px;
+    height: 25px;
+    border-radius: 6px;
+    background-color: pink;
+    color: black;
+}
+.done4 {
+    width: 70px;
+    height: 25px;
+    background-color: rgb(98, 120, 231);
+    border-radius: 6px;
+    color: black;
+}
+.del4{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(98, 120, 231);
+    color: black;
+    border-radius: 6px;
+}
+.pink-bgr {
+    background-color: pink;
+    width: 120px;
+    border-radius: 6px;
+    color: white;
+}
+.blue-bgr {
+    background-color: rgb(98, 120, 231);
+    margin-top: 10px;
+    width: 120px;
+    border-radius: 6px;
+}
+tr {
+    display: flex;
+    gap: 50px;
+}
+.js-handle {
+    margin-right: 200px;
+}
+th {
+    color: white;
+}
+
+.done-task > td {
+    text-decoration: line-through;
+  }

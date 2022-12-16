@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+  <div class="main">
+    <h1>Register form</h1>
+    <form class="js-form-register">
+      <input id="username" type="text" placeholder="Username"/>
+      <span class="error js-err-user-name"></span>
+      <br>
+      <input id="password" type="text" placeholder="password"/>
+      <br>
+      <input id="firstName" type="text" placeholder="firstName"/>
+      <br>
+      <input id="lastName" type="text" placeholder="lastName"/>
+      <br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Nam</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Nữ</label><br>
+      <button type="submit">Submit</button>
+      <button class="js-btn-reset">Reset</button>
+    </form>
+
+
+
+    <table class="table">
+      <thead>
+          <th>Username</th>
+          <th>passworld</th>
+          <th>lastName</th>
+          <th>firstName</th>
+          <th>gender</th>
+          <th>Action</th>
+      </thead>
+      <tbody class="js-content-table">
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  
+  <script src="../js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.main {
+  margin-top: 50px;
+  text-align: center;
+  /* background-color: lightskyblue; */
+}
+
+.error {
+  color: red;
+}
+
+.table {
+  margin-top: 50px;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  line-height: 50px;
+}
+
+.table,thead,th{
+  border: 1px solid black;
+}
+td {
+  
+  border: 1px solid black;
+}
+.gender-male {
+  background-color: chartreuse;
+}
+
+.gender-female {
+  background-color: pink;
+}
+
+.gender-unknown {
+  background-color: purple;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskManager</title>
+    <link rel="stylesheet" href="../css/taskManager.css">
+</head>
+<body>
+        <div class="header-taskmanager">
+                <div class="tab1-header">
+                    <h1>Task Managerment</h1>
+                </div>
+        </div>
+
+
+    <div class="taskmanager">
+        <div class="tab1-taskmanager">
+                <form action="#" class="form-class">
+                    <div class="taskname">
+                            <span>Task Name</span>
+                            <input type="text" class="js-iput1">
+                    </div>
+                    <div class="task-description">
+                            <span class="tasktitle">Task Description</span>
+                            <textarea name="story" id="texaria-id" cols="40" rows="5"></textarea>
+                    </div>
+                    <div class="prionity">
+                            <span>Prionity</span>
+                            <select id="prionity-select">
+                                <option value="hight">Hight</option>
+                                <option value="medium">Medium</option>
+                                <option value="low">Low</option>
+                            </select>
+                    </div>
+                    <div class="submit-and-reset">
+                            <button class="submit1" type="submit">Submit</button>
+                            <button class="submit2" type="reset">Reset</button>
+                    </div>
+                </form>
+        </div>
+
+        <div class="tab2-Task-list">
+                <div class="task-list-header">
+                    <h2>Tast List</h2>
+                </div>
+                <table class="task-list-all-one">
+                        <thead>
+                                <tr>
+                                        <th>Task Name</th>
+                                        <th>Ngày Tạo</th>
+                                        <th>Description</th>
+                                        <th>Prionity</th>
+                                        <th>Action</th>
+                                </tr>
+                        </thead>
+                </table>
+                <table class="js-handle"></table>
+        </div>
+    </div>
+
+    <script src="../js/taskManager.js"></script>
+</body>
+</html>

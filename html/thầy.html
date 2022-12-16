@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="../css/thầy.css">
+</head>
+
+<body>
+  <div class="content-task-management">
+    <div class="wrapper-task-mn">
+      <h1 class="content-task-management__title">Task Management</h1>
+      <div class="wrapper-task-mn__flex">
+        <form class="left-form js-left-form">
+          <div>
+            <label for="">Task name:</label>
+            <input type="text" id="task-name" />
+          </div>
+          <div>
+            <label for="">Task Description:</label>
+            <textarea type="text" id="task-des"></textarea>
+          </div>
+          <div>
+            <label for="">Task priority:</label>
+            <select name="task-priority" id="task-priority">
+              <option value="hight">Hight</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+          </div>
+
+          <button class="js-submit-form" type="submit">Submit</button>
+          <button class="js-btn-reset" type="reset">Reset</button>
+        </form>
+    
+        <div class="right-form">
+          <h3 class="content-task-management__title">Task list</h3>
+    
+          <table class="right-form__table">
+            <thead>
+              <tr>
+                <th>Task Name</th>
+                <th>Ngày tạo</th>
+                <th>Description</th>
+                <th>Priority</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody class="js-body-tasklist">
+  
+            </tbody>
+          </table>
+        </div>  
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/thầy.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: black;
+}
+.slide___show {
+    padding: 40px;
+}
+h1 {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.img-slide {
+    text-align: center;
+    border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.img {
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 30px;
+    /* display: none; */
+}
+.js-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.btn {
+    width: 120px;
+    border-radius: 10px;
+    height: 30px;
+    background-color:white;
+    cursor: pointer;
+}
+.btn-out-reload-mont_exercise {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.btn-reload {
+    width: 130px;
+    height: 30px;
+    background-color: honeydew;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
